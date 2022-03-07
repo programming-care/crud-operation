@@ -17,33 +17,44 @@ include("connection.php");
 </head>
 
 <body>
-    <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo"><a href="index.php">Team-7</a></div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-            <!-- NAVIGATION MENUS -->
-            <div class="menu">
-                <li><a href="about.php">About</a></li>
-                <li><a href="display.php">Dashboard</a></li>
-                <li><a href="registration.php">Registration</a></li>
+    <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>Team-7</strong>
+            </a>
 
-                <!--<li class="services">
-                    <a href="/">Course</a>
-                    <ul class="dropdown">
-                        <li><a href="/">HTML</a></li>
-                        <li><a href="/">CSS</a></li>
-                    </ul>
-                </li>-->
-                <!-- <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.php">Login</a></li>
-                <li><a href="signUp.php">Sign Up</a></li> -->
-                
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="display.php">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.php">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">LogIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php">SignUp</a>
+                </li>
+                </ul>
+
             </div>
-        </ul>
-    </nav>
+            </nav>
+
+            </div>
+        </div>
+        </header>
     
-    <div class="container">
+    <div class="container my-5">
     <button type="button" class="btn btn-primary"><a href="registration.php" class="text-white">Add User</a></button>
         <table class="table ">
             <thead>
@@ -86,5 +97,5 @@ include("connection.php");
         </table>
     </div>
 </body>
-
+     
 </html>

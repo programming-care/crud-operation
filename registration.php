@@ -32,16 +32,42 @@ if(isset($_POST['submit'])){
 </head>
 
 <body>
- <nav class="navbar">
-        <div class="logo"><a href="index.php">Team-7</a></div>
-        <ul class="nav-links">
-            <div class="menu">
-                <li><a href="about.php">About</a></li>
-                <li><a href="display.php">Dashboard</a></li>
-                <li><a href="registration.php">Registration</a></li>
+     <header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>Team-7</strong>
+            </a>
+
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="display.php">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.php">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">LogIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php">SignUp</a>
+                </li>
+                </ul>
+
             </div>
-        </ul>
-    </nav>
+            </nav>
+
+            </div>
+        </div>
+        </header>
     
     <div class="container my-5">
     <button type="button" class="btn btn-primary">Add User</button>
