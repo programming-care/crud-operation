@@ -52,7 +52,7 @@
 <header>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
+      <a href="index.php" class="navbar-brand d-flex align-items-center">
         <strong>Team-7</strong>
       </a>
 
@@ -188,7 +188,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="images/2.jfif" alt="" height="280">
+            <img src="images/bg.jpeg" alt="" height="280">
 
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
